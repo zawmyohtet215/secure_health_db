@@ -1,0 +1,21 @@
+# Secrets and local config
+.env
+*.key
+*.pem
+secrets/
+
+# Database dumps and logs (may contain real data or keys)
+*.sqlite
+*.dump
+*.bak
+*.log
+
+# Word temp files
+~$*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.dbeaver/
